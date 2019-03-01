@@ -49,26 +49,26 @@
 
             <v-navigation-drawer app v-model="mobileNav" right temporary >
 
-                    <!-- put pic and name in row -->
-                    <div class="white pa-4 text-xs-center">
-                        <v-img
-                        src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-                        aspect-ratio="1"
-                        class=""
-                        id="drawer-img"
-                        height="5rem"
-                        width="5rem"
-                    ></v-img>
+                <!-- put pic and name in row -->
+                <div class="white pa-4 text-xs-center">
+            
                     <p>Hitesh</p>
 
 
-                    <p>Link</p>
-                    <p>Link</p>
-                    <p>Link</p>
-                    <p>contact</p>
-                    <p>1</p>
-                    <p>2</p>
-                    <p>3</p>
+                    <v-list v-for="link in links" :key="link.text" class="links text-xs-center transparent blue--text">
+                        <v-btn router :to="link.route" v-html="link.text" class="blue--text link" flat></v-btn>
+                    </v-list>
+
+                    <div class="mt-3">
+                        <p class="grey--text text-darken-2">Get in touch</p>
+                        <ul id="contact-main" >
+                            <li><a href="mailto:hiteshgohil@gmx.co.uk" class="contact-link ma-2 mr-4"><i class="far fa-envelope"></i></a></li>
+                            <li><a href="https://github.com/hitesh-92" class="contact-link ma-2"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+
+
+
                 </div>
             </v-navigation-drawer>
         </div>

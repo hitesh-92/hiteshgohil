@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.50d77de86cc80f47709974f43f036a62.js"
+  "/precache-manifest.788278e0924c8f3fcb340e0388a5add9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "hiteshgohil"});
