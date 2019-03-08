@@ -15,12 +15,12 @@
     <section id="description" class="">
       <p>I am a self taught developer who started to learn about coding around 2 years ago and I didn’t start in a conventional way</p>
       <p>With little prior knowledge of compSci or anything related to the tech space, I made the decision to buy a book: Python for Bash and Shell scripting</p>
-      <em>Who knows what that is, right?</em>
+      <p><em>Who knows what that is, right?</em></p>
       <p>Reading around the topics of the book discovered Linux</p>
       <p>Throwing yourself into the world of Linux is like jumping into an abyss. <span><em>Just like staring into the terminal for the first time</em></span></p>
       <p>However, unlike an abyss, my time spent learning Python came to an end. I hadn’t even written my first Hello World app. I didn’t even know the basics.</p>
       <p>A few months later discovered Web Development.</p>
-      <em>Another can of worms, ready to be opened</em>
+      <p><em>Another can of worms, ready to be opened</em></p>
       <p>Picking the basics is easy enough, given a little time. JavaScript allows you to see what real programming is capable of and is what intrigued me to pursue this further</p>
     </section>
 
