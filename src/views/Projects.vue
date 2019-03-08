@@ -27,12 +27,12 @@
 
         <br>
         <div v-if="project.code" class="mt-2 codeContainer">
-          <a :href="project.code" class="blue--text code">View Code</a>
+          <a :href="project.code" target="_blank" class="blue--text code">View Code</a>
         </div>
       </v-flex>
 
       <v-flex xs12 md6>
-        <a :href="project.url"><v-img class="img my-4" :src="project.src"></v-img></a>
+        <a :href="project.url" target="_blank"><v-img class="img my-4" :src="project.src"></v-img></a>
       </v-flex>
 
       </v-layout>

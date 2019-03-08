@@ -63,7 +63,7 @@
                         <p class="grey--text text-darken-2">Get in touch</p>
                         <ul id="contact-main" >
                             <li><a href="mailto:hiteshgohil@gmx.co.uk" class="contact-link ma-2 mr-4"><i class="far fa-envelope"></i></a></li>
-                            <li><a href="https://github.com/hitesh-92" class="contact-link ma-2"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://github.com/hitesh-92" target="_blank" class="contact-link ma-2"><i class="fab fa-github"></i></a></li>
                         </ul>
                     </div>
 

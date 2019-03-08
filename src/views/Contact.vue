@@ -106,12 +106,12 @@
                 // change data variables
                 this.messageSent = true;
                 this.response = res
-                console.log('success')
+                // console.log('success')
             })
             .catch(err => {
                 this.messageError = true
                 this.responseError = err
-                console.log('DID NOT SEND!')
+                // console.log('DID NOT SEND!')
             })
 
         }
