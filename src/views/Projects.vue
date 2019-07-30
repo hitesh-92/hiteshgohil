@@ -2,7 +2,11 @@
   <main class="px-4 mx-1 py-3">
     <h1 class="font-weight-light pb-3 display-1">Projects</h1>
 
-    <p class="pb-1">View my work below. My projects consist of work I've done for my self to learn and showcase my ability. Also couple freelance projects I picked up along the way</p>
+    <p class="pb-1">
+      Here's some of the stuff I've hacked together
+      <br />
+      There's a mix of things. From tutorials with twists to my own ideas
+    </p>
 
     <v-container v-for="(project) in projects" :key="project.id">
 
@@ -12,10 +16,11 @@
 
       <v-flex xs12 md6>
 
-        <h3 class="headline blue--text text--darken-1" v-html="project.title"></h3>
+        <!-- <h3 class="headline blue--text text--darken-1" v-html="project.title"></h3> -->
+        <a :href="project.url"> <h3 class="headline blue--text text--darken-1" v-html="project.title"></h3> </a>
         <p class="mt-2 px-2" v-html="project.desc"></p>
 
-        <ul class="mb-3" v-for="(item,index) in project.list" :key="index">
+        <ul class="mb-3 px-4" v-for="(item,index) in project.list" :key="index">
           <li class="grey--text text--darken-1" v-html="item"></li>
         </ul>
 
@@ -26,7 +31,7 @@
         </div>
 
         <br>
-        <div v-if="project.code" class="mt-2 codeContainer">
+        <div v-if="project.code" class="mt-4 codeContainer">
           <a :href="project.code" target="_blank" class="blue--text code">View Code</a>
         </div>
       </v-flex>
@@ -47,30 +52,40 @@ export default {
   data(){
     return{
       projects: [
-        // gohilReport
         {
             title: 'Gohil Report',
-            desc: 'A personal project which displays news article links',
+            desc: 'Links to news articles',
             list: [
-                'Made to keep articles for frame of reference in future',
-                'Building complementary site which allows users to send articles to share',
-                'Made API, with integration testing, which handles basic operations'
+                'Designed with longevity and minimalism in mind - personal project',
+                'Links will be managed using web app - G.R Manager'
             ],
-            tech: ['Handlebars', 'Node', 'Express', 'MongoDB'],
+            tech: ['Vue', 'Vuetify (Material Design)', 'AJAX'],
             link: '/',
             src: './img/gohilReport.jpg',
             url: 'http://www.gohilreport.com',
             code: 'https://github.com/hitesh-92/archReport',
             id: 'greport'
         },
-        // Project Management
+        {
+          title: 'G.R Manager',
+          desc: 'Manage Content for Gohil Report',
+          list: [
+            `Prototyped project - hack through as fast as possible`,
+            `Developed Back End REST API`
+          ],
+          src: `/`,
+          tech: ['Angular', 'Node', 'Express', 'MongoDB'],
+          url: `https://dazzling-curie-930cbb.netlify.com`,
+          code: `https://github.com/hitesh-92/gohilReportManager`,
+          id: 'grm'
+        },
         {
             title: 'Project Management',
-            desc: 'A way to keep track of projects and set tasks for each project',
+            desc: 'Simple project management tool',
             list: [
-                'Messages board to leave important messages for team',
-                'Add in tasks for individual project (developing)',
-                'Responsive Web Application'
+                'Messages board system',
+                `Uses FireStore as BaaS`,
+                'Started this project to kick start an idea a friend had - though nothing materialised'
             ],
             tech: ['React', 'Redux', 'Firebase'],
             link: '/',
@@ -79,13 +94,13 @@ export default {
             code: 'https://github.com/hitesh-92/project-manager',
             id: 'promngt'
         },
-        // TV Series Listings
         {
             title: 'TV Series Listings',
             desc: 'Find all tv series',
             list: [
                 'Dynamically load search results',
-                'Consuming 3rd party API for data'
+                'Consuming TvMaze API for data',
+                'Not my greatest work but my first taste of React'
             ],
             tech: ['React', 'AJAX', 'Express'],
             link: '/',
@@ -94,27 +109,12 @@ export default {
             code: 'https://github.com/hitesh-92/react-tv_series',
             id: 'tvser'
         },
-        // Ikalon
-        {
-            'title': 'Ikalon Consulting',
-            desc: 'pdf to website',
-            list: [
-                'Freelance project',
-                'Responsive website'
-            ],
-            tech: ['Vue', 'Express'],
-            link: '/',
-            src: './img/ikalon.jpg',
-            url: 'https://ikalon-consulting.herokuapp.com/',
-            code: null,
-            id: 'ikalon'
-        },
-        // Calculator
         {
             title: 'Calculator',
             desc: 'calculate stuff',
             list: [
-                'Chain calcualtions'
+                'Chain calcualtions',
+                'Learning project - making sure I can use jQuery'
             ],
             tech: ['JavaScript', 'jQuery'],
             link: '/',
@@ -159,9 +159,6 @@ export default {
   .content{
     transition: ease-in-out 0.4s;
     border-radius: 10px;
-  }
-  .content:hover{
-    background-color: rgba(236, 245, 247, 0.39);
   }
 
   .chip:hover{

@@ -3,6 +3,8 @@
 
     <h1 class="font-weight-light pb-3 display-1">About</h1>
 
+    <!--  https://drive.google.com/open?id=1DZR10zrGSurABQ9C1C8tkugLYuklKzQcLL7zVvT4X6s -->
+
     <!-- <section id="description" class="">
       <p>I am a self taugt developer who started to learn and write code about 2 years ago</p>
       <p>I initially started by picking up a book: Python for Bash and Shell scripting</p>
