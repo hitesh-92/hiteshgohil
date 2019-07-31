@@ -48,11 +48,10 @@
       <h3 class="font-weight-medium title pb-3 blue--text text--darken-2"> <span><v-icon class="blue--text">web</v-icon></span> Front End Development</h3>
       
       <ul class="grey--text text-darken-5">
-        <li>I currently use Vue and React to make applications</li>
-        <li>Using Redux I gained an insight into state management</li>
-        <li>Mostly use UI frameworks such as Bootstrap and MaterializeCSS</li>
-        <li>Focus on responsive design</li>
-        <li>Can use AJAX and JSON</li>
+        <li>Front-End frameworks: React, Vue and Angular</li>
+        <li>State management with Vuex and Redux</li>
+        <li>UI frameworks - with Material Design. Some Bootstrap</li>
+        <li>AJAX / JSON</li>
       </ul>
     </section>
 
@@ -63,12 +62,11 @@
       <h3 class="font-weight-medium title pb-3 blue--text text--darken-2"> <span><i class="fas fa-code blue--text"></i></span> Back End Development</h3>
       
       <ul class="grey--text text-darken-5">
-        <li>I've had little need to have a complex back-end however do enjoy the challenge</li>
-        <li>Primarily use Node as the transition from JavaScript is easy</li>
-        <li>A personal project presented the opportunity to construct a API which has CRUD functionality</li>
-        <li>Creating an API also allowed me to use MongoDB and automated testing</li>
-        <li>Worked with Firebase which eliminated the need to create a API and was easily able to authenticate users and use the cloud Firestore database</li>
-        <li>After my initial mishap trying to tackle Python, I took on the challenge and was able to create a couple terminal based games. Write a few scripts too</li>
+        <li>Node.js (easy move from JavaScript)</li>
+        <li>REST API with CRUD operations</li>
+        <li>API designed with integration testing</li>
+        <li>Worked with Firebase, a BaaS</li>
+        <li>Some python - Django and Flask</li>
       </ul>
     </section>
 
