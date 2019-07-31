@@ -60,7 +60,7 @@ export default {
             ],
             tech: ['Vue', 'Vuetify (Material Design)', 'AJAX'],
             link: '/',
-            src: './img/gohilReport.jpg',
+            src: './img/greport.jpg',
             url: 'http://www.gohilreport.com',
             code: 'https://github.com/hitesh-92/archReport',
             id: 'greport'
@@ -89,7 +89,7 @@ export default {
             tech: ['React', 'Redux', 'Firebase'],
             link: '/',
             src: './img/proMngr.jpg',
-            url: 'https://project-manager-53365.firebaseapp.com/',
+            url: 'https://project-management-908b0.firebaseapp.com/signin',
             code: 'https://github.com/hitesh-92/project-manager',
             id: 'promngt'
         },
@@ -99,7 +99,7 @@ export default {
             list: [
                 'Dynamically load search results',
                 'Consuming TvMaze API for data',
-                'Not my greatest work but my first taste of React'
+                'Not my greatest work but my quick, first taste of React'
             ],
             tech: ['React', 'AJAX', 'Express'],
             link: '/',
