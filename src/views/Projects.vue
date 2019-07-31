@@ -16,8 +16,7 @@
 
       <v-flex xs12 md6>
 
-        <!-- <h3 class="headline blue--text text--darken-1" v-html="project.title"></h3> -->
-        <a :href="project.url"> <h3 class="headline blue--text text--darken-1" v-html="project.title"></h3> </a>
+        <a :href="project.url" target="_blank"><h3 class="headline blue--text text--darken-1" v-html="project.title"></h3> </a>
         <p class="mt-2 px-2" v-html="project.desc"></p>
 
         <ul class="mb-3 px-4" v-for="(item,index) in project.list" :key="index">
@@ -73,7 +72,7 @@ export default {
             `Prototyped project - hack through as fast as possible`,
             `Developed Back End REST API`
           ],
-          src: `/`,
+          src: `./img/grm.png`,
           tech: ['Angular', 'Node', 'Express', 'MongoDB'],
           url: `https://dazzling-curie-930cbb.netlify.com`,
           code: `https://github.com/hitesh-92/gohilReportManager`,
