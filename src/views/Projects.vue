@@ -69,7 +69,7 @@ export default {
           title: 'G.R Manager',
           desc: 'Manage Content for Gohil Report',
           list: [
-            `Prototyped project - hack through as fast as possible`,
+            `Prototyped project - hack together as fast as possible`,
             `Developed Back End REST API`
           ],
           src: `./img/grm.png`,

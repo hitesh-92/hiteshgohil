@@ -48,10 +48,11 @@
       <h3 class="font-weight-medium title pb-3 blue--text text--darken-2"> <span><v-icon class="blue--text">web</v-icon></span> Front End Development</h3>
       
       <ul class="grey--text text-darken-5">
-        <li>Front-End frameworks: React, Vue and Angular</li>
-        <li>State management with Vuex and Redux</li>
+        <li>Frameworks: React, Vue and Angular</li>
+        <li>State management Redux</li>
         <li>UI frameworks - with Material Design. Some Bootstrap</li>
         <li>AJAX / JSON</li>
+        <li>A little JAM stack too - Gatsby</li>
       </ul>
     </section>
 
@@ -62,7 +63,7 @@
       <h3 class="font-weight-medium title pb-3 blue--text text--darken-2"> <span><i class="fas fa-code blue--text"></i></span> Back End Development</h3>
       
       <ul class="grey--text text-darken-5">
-        <li>Node.js (easy move from JavaScript)</li>
+        <li>Node.js (no-brainer knowing JavaScript)</li>
         <li>REST API with CRUD operations</li>
         <li>API designed with integration testing</li>
         <li>Worked with Firebase, a BaaS</li>
