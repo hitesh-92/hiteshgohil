@@ -79,6 +79,19 @@ export default {
           id: 'grm'
         },
         {
+          title: 'Image Face Recognition Web App',
+          desc: 'Machine finds faces in pictures',
+          list: [
+            `Used Clarifai's API giving access to Face Recognition`,
+            'Back end uses Docker allowing to run multiple services'
+          ],
+          tech: ['React', 'Node', 'Docker', 'PostgreSQL', 'Redis'],
+          src: './img/face-recog.jpg',
+          url: 'https://boring-meitner-5bb17f.netlify.com/',
+          code: 'https://github.com/hitesh-92/face-recognition-react',
+          id: 'face-recog'
+        },
+        {
             title: 'Project Management',
             desc: 'Simple project management tool',
             list: [
@@ -112,7 +125,7 @@ export default {
             title: 'Calculator',
             desc: 'calculate stuff',
             list: [
-                'Chain calcualtions',
+                'Allows you to see calcualtion chain',
                 'Learning project - making sure I can use jQuery'
             ],
             tech: ['JavaScript', 'jQuery'],

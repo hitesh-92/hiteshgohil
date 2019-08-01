@@ -86,7 +86,7 @@ export default {
             links:[
                 {text:'Projects', route:'/'},
                 {text:'About', route:'/about'},
-                {text:'Contact Me', route:'/contact'}
+                {text:'Contact', route:'/contact'}
             ],
             contact:[
                 {icon: 'far fa-envelope', link: ''},
