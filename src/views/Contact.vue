@@ -8,15 +8,6 @@
       <p><strong>Hiteshgohil@gmx.co.uk</strong></p>
     </div>
 
-    <div class="mt-5">
-      Also here's a link to my CV:
-      <a class="transparent" href="https://drive.google.com/open?id=1DZR10zrGSurABQ9C1C8tkugLYuklKzQcLL7zVvT4X6s" target="_blank">
-        <i class="far fa-file-alt pl-2 mail"></i>
-      </a>
-    </div>
-
-
-
   </section>    
 </template>
 

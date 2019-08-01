@@ -3,8 +3,6 @@
 
     <h1 class="font-weight-light pb-3 display-1">A little about me</h1>
 
-    <!--  https://drive.google.com/open?id=1DZR10zrGSurABQ9C1C8tkugLYuklKzQcLL7zVvT4X6s -->
-
     <section id="description" class=" mt-2">
       <p>Self taught Developer. Who started in the wrong place...</p>
       <p>Walking through Waterstones (yes, I still read). A book caught my eye</p>
